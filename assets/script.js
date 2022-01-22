@@ -1,5 +1,3 @@
-// Assignment code here
-
 //Global Variables
 var allUserCharacter = [];
 
@@ -9,11 +7,11 @@ var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var symbols =["!", "#", "^", "@", "$", "%", "~", "*", "+", "-"];
 
 
-// Get references to the #generate element. Variable focuses on the button
+//Variable focuses on the button
 var generateBtn = document.querySelector("#generate");
 
-//Function is collecting data from user
 function generatePassword() {
+  //This part of function is collecting data from user
     var length = prompt("What is the length of your password?");
   
     if (isNaN(length)) {
@@ -25,7 +23,6 @@ function generatePassword() {
       alert("The length of your password should be between 8 and 128 characters long.");
       return;
     }
-  
     var useLowerCase = confirm("Select 'OK' to include lowercase.");
     var useUpperCase = confirm("Select 'OK' to include uppercase.");
     var useSymbols = confirm("Select 'OK' to include special charatcers.");
@@ -52,7 +49,6 @@ function generatePassword() {
   if (useSymbols) {
     allUserCharacter = allUserCharacter.concat(symbols);
   }  
-
   var createdPassword = "";
 
   for(var i = 0; i < length; i++) {

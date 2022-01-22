@@ -6,8 +6,8 @@ password. Also included are various window pop ups for the user to be able to co
 math.floor and math.random properties to help generate random passwords. 
 
 ## Link to the deployed site
-[Deployed Link] 
+[Deployed Link](https://chloeyarb.github.io/Challenge-3-Password/)
 
 ## Screenshot of your deployed app
-[Screenshot] (./assets/images/Password-Generator-Screenshot.png))
+[Screenshot](./assets/images/Password-Generator-Screenshot.png))
   
